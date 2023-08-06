@@ -2,7 +2,7 @@ from django.http import HttpResponse
 
 HTML_BODY = "<html><body></body></html>"
 GREETING = "<h1>Welcome to the Django Framework</h1>"
-BASIC_REDIRECTION = '<a href="https://www.google.com">Link</a> '
+BASIC_REDIRECTION = '<a href="https://www.google.com">Go to Google</a> '
 
 
 def root(_):
