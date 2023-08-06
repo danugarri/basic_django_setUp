@@ -1,0 +1,15 @@
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: cadetblue;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+}
