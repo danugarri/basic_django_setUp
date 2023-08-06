@@ -19,6 +19,6 @@ from django_first_project.views import set_basic_view, root
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", root),
-    path("greeting", set_basic_view),
+    path("", root, name="root"),
+    path("greeting", set_basic_view, name="greeting"),
 ]
