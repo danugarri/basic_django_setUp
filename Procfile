@@ -1,1 +1,1 @@
-web: python manage.py migrate && python manage.py collectstatic --no-input && gunicorn django_first_project.wsgi
+web: python manage.py migrate && python manage.py collectstatic --no-input && gunicorn firstProject.wsgi
