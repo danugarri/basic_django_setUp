@@ -33,6 +33,8 @@ ALLOWED_HOSTS = ["basic-django.up.railway.app"]
 # Application definition
 
 INSTALLED_APPS = [
+    "django.contrib.staticfiles",
+    "whitenoise.runserver_nostatic",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -53,7 +55,6 @@ MIDDLEWARE = [
     # Add the following line to set the proper MIME type for CSS files.
     "django.middleware.common.BrokenLinkEmailsMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
-    "whitenoise.runserver_nostatic",
 ]
 
 ROOT_URLCONF = "firstProject.urls"
