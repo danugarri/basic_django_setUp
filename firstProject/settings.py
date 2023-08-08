@@ -26,7 +26,8 @@ SECRET_KEY = "production--8#7ipy3)mq+r#*55t1b^dly9(dx4!hi$h+^y^!y$iz20rvb_*"  # 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]  # Must be updated with the corresponding  Host url
+# ALLOWED_HOSTS = ["*"]  # Must be updated with the corresponding  Host url
+ALLOWED_HOSTS = ["basic-django.up.railway.app"]
 
 
 # Application definition
