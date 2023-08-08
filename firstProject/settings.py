@@ -134,7 +134,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 SECURE_SSL_REDIRECT = False
-
+# To Load static files in production
 STATIC_URL = "/static/"
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
