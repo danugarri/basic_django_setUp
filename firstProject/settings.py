@@ -52,6 +52,8 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     # Add the following line to set the proper MIME type for CSS files.
     "django.middleware.common.BrokenLinkEmailsMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
+    "whitenoise.runserver_nostatic",
 ]
 
 ROOT_URLCONF = "firstProject.urls"
@@ -139,3 +141,4 @@ STATICFILES_DIRS = [
 ]
 # Set the STATIC_ROOT to a path accessible by the web server
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
