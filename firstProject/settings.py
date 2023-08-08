@@ -137,3 +137,5 @@ STATIC_URL = "/static/"
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+# Set the STATIC_ROOT to a path accessible by the web server
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
