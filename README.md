@@ -63,6 +63,27 @@ To be deployed is absolutelly necessary to have a Virtual environment for each a
     STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
     STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
     
-    ## FUNDAMENTAL ##
+## FUNDAMENTAL ##
     - pip install the following dependencies on our Virtual environment:
     ` django gunicorn whitenoise`
+
+# Scaffolding:
+
+project_name/
+├── manage.py
+├── db.sqlite3
+├── Procfile
+├── nixpacks.toml
+├── README.md
+├── static
+│   │ 	├── css
+├── .python-version
+├── firstProject/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── templates
+├── myenv/
+│   ├── lib
+│   ├── scripts
+└── requirements.txt
