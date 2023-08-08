@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
-    "django.contrib.staticfiles",
     "firstProject",  # The app name is necessary to be added
 ]
 
