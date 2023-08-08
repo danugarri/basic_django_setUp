@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "firstProject",  # The app name is necessary to be added in Django 3.2
+    "firstProject",  # The app name is necessary to be added
 ]
 
 MIDDLEWARE = [
@@ -137,5 +137,5 @@ SECURE_SSL_REDIRECT = False
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 # Configure STATICFILES_DIRS with the absolute paths to your static directories
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "firstProject", "css"),
+    os.path.join(BASE_DIR, "firstProject", "static"),
 ]
