@@ -133,7 +133,7 @@ CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 SECURE_SSL_REDIRECT = False
 
-STATIC_URL = "/static/"
+STATIC_URL = "/staticfiles/"
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
