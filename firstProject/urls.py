@@ -18,7 +18,7 @@ from django.urls import path
 from firstProject.views import set_basic_view, root
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
+    # path("admin/", admin.site.urls),
     path("", root, name="root"),
-    path("greeting", set_basic_view, name="greeting"),
+    # path("greeting", set_basic_view, name="greeting"),
 ]
