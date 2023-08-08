@@ -131,9 +131,8 @@ CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 SECURE_SSL_REDIRECT = True
 
-# STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 # Configure STATICFILES_DIRS with the absolute paths to your static directories
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "firstProject", "static"),
-    # Add other directories here if needed
-]
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, "firstProject", "static"),
+# ]
