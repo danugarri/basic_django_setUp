@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -129,3 +130,10 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 SECURE_SSL_REDIRECT = True
+
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+# Configure STATICFILES_DIRS with the absolute paths to your static directories
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "app", "static"),
+    # Add other directories here if needed
+]
